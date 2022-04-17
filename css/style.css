@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  line-height: 1.5;
+ 
+}
+
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+  font-size: 63.5%;
+  line-height: 1.625rem;
+}
+
+html body {
+  background-color: #303234;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@font-face {
+  font-family: Round;
+  src: url(../webfonts/VarelaRound-Regular.ttf);
+}
+.main {
+  position: fixed;
+  display: flex;
+  height: fit-content;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  max-width: 350px;
+  border-radius: 10px;
+  padding: 1.5rem 1.5rem;
+}
+
+.main img {
+ 
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 3px solid rgb(251, 45, 45);
+}
+
+.main .title {
+  color: #232323;
+  font-family: Round;
+  font-size: 3.5rem;
+  font-style: bold;
+  font-weight: 1000;
+}
+.main .nickname{
+  margin:-0.6rem auto;
+  font-weight: 400;
+  font-size: 20px;
+}
+.main .tick {
+  color: #0d6efd;
+  position: relative;
+  top: -3px;
+}
+
+.main .card_button {
+  font-family: sans-serif;
+  width: 75%;
+  border-radius: 50px;
+  font-size: 2rem;
+}
+
+.main .facebook {
+  border: none;
+  font-weight: 400;
+  line-height: 1.5;
+  padding: 0.375rem 0.75rem;
+  background-color: #0d6efd;
+}
+.main .chat{
+  border: none;
+  background:#FF6968;
+  background: linear-gradient(222deg, #FF6968 20%, #A334FA 50%,#0695FF 80%);
+  padding: 0.375rem 0.75rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.main .instagram {
+  border: none;
+  font-weight: 400;
+  line-height: 1.5;
+  padding: 0.375rem 0.75rem;
+  background: #f09433;
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+}
+
+.main .tiktok {
+  border: none;
+  font-weight: 400;
+  line-height: 1.5;
+  padding: 0.375rem 0.75rem;
+  background-color: #303234;
+}
+
+.share{
+  background-color:#0d6efd!important;
+  width: 34%!important;
+  height:30px!important; 
+  margin: 0 auto;
+  border-radius: 50px;
+  position: relative;
+}
+.link{
+  color:white;
+  font-size: 15px;
+  text-decoration: none;
+  position: relative;
+  top:3px;
+}
+
+@media screen and (max-width: 340px){
+  .main{
+    margin: auto 10px;
+  }
+}
